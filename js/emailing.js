@@ -40,9 +40,7 @@ $(document).ready(function() {
                 success: function(data, textStatus, xhr) {
                     if(xhr.status==200)
                         alert('Nous vous tiendrons au courant de nos dernières actu ! \n Wefoot');
-                    $('#name').val('');
-                    $('#email').val('');
-                    $('#message').val('');
+                    $('input').val('');
                 }
             });
         }
@@ -85,9 +83,8 @@ $(document).ready(function() {
                 success: function(data, textStatus, xhr) {
                     if(xhr.status==200)
                         alert('Nous vous tiendrons au courant de nos dernières actu ! \n Wefoot');
-                    $('#name').val('');
-                    $('#email').val('');
-                    $('#message').val('');
+                    $('input').val('');
+
                 }
             });
         }
