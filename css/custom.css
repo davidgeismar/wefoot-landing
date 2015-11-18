@@ -1,0 +1,454 @@
+html, body{
+  font-family:Ubuntu;
+
+}
+.modal {
+  color: black;
+}
+.pointer {
+  cursor:  pointer;
+}
+
+.big_font{
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.abonne {
+  font-weight: bold;
+  font-size: 3.5em;
+}
+
+
+/*david*/
+.logo_rond{
+  background-image: url("assets/logo_rond.svg");
+  background-position: 25% 25%;
+  background-repeat: no-repeat;
+  -webkit-background-size: 150px;
+  -moz-background-size: 150px;
+  background-size: 150px;
+  width: 150px;
+  height: 42px;
+  margin: auto auto auto 26px;
+}
+
+#social:hover {
+  -webkit-transform:scale(1.1);
+  -moz-transform:scale(1.1);
+  -o-transform:scale(1.1);
+}
+#social {
+  -webkit-transform:scale(0.8);
+  /* Browser Variations: */
+  -moz-transform:scale(0.8);
+  -o-transform:scale(0.8);
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+}
+
+.noir{
+  color:black;
+}
+.social-fb:hover {
+  color: #3B5998;
+}
+.social-tw:hover {
+  color: #4099FF;
+}
+.social-gp:hover {
+  color: #d34836;
+}
+.social-em:hover {
+  color: #f39c12;
+}
+
+.social-insta:hover {
+  color: #3f729b;
+}
+
+
+.iphone-container{
+  width: 215px;
+  height: 395px;
+  background-image: url("../image_site/iphone-empty.png");
+  background-size: cover;
+  padding: 50px 10px;
+  display: inline-block;
+
+}
+.iphone-container-2{
+  height: 430px;
+  width: 420px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-top: 87px;
+  margin-left:24px;
+}
+.iphone-container-2::-webkit-scrollbar {
+  display: none;
+}
+.iphonearenephoto{
+  width: 414px;
+  height: auto;
+  padding-right: 30px;
+  z-index: 2;
+}
+
+@keyframes flecheOne {
+  0%   {opacity: 1}
+  50%  {opacity: 0.5}
+  100% {opacity: 1}
+}
+
+@keyframes flecheTwo {
+  0%   {opacity: 0.5}
+  50%  {opacity: 1}
+  100% {opacity: 0.5}
+}
+
+@-o-keyframes flecheOne {
+  0%   {opacity: 1}
+  50%  {opacity: 0.5}
+  100% {opacity: 1}
+}
+
+@-o-keyframes flecheTwo {
+  0%   {opacity: 0.5}
+  50%  {opacity: 1}
+  100% {opacity: 0.5}
+}
+
+@-ms-keyframes flecheOne {
+  0%   {opacity: 1}
+  50%  {opacity: 0.5}
+  100% {opacity: 1}
+}
+
+@-ms-keyframes flecheTwo {
+  0%   {opacity: 0.5}
+  50%  {opacity: 1}
+  100% {opacity: 0.5}
+}
+
+@-moz-keyframes flecheOne {
+  0%   {opacity: 1}
+  50%  {opacity: 0.5}
+  100% {opacity: 1}
+}
+
+@-moz-keyframes flecheTwo {
+  0%   {opacity: 0.5}
+  50%  {opacity: 1}
+  100% {opacity: 0.5}
+}
+
+
+@-webkit-keyframes flecheOne{
+  0%   {opacity: 1}
+  50%  {opacity: 0.5}
+  100% {opacity: 1}
+}
+
+@-webkit-keyframes flecheTwo {
+  0%   {opacity: 0.5}
+  50%  {opacity: 1}
+  100% {opacity: 0.5}
+}
+
+
+.fleche2{
+  margin-top: 430px;
+  margin-left: 200px;
+
+  width: auto;
+  height: auto;
+  z-index: 1;
+  position: absolute;
+  -webkit-animation: flecheTwo 1s linear infinite;
+  animation: flecheTwo 1s linear infinite;
+  -o-animation: flecheTwo 1s linear infinite;
+  -ms-animation: flecheTwo 1s linear infinite;
+  -moz-animation: flecheTwo 1s linear infinite;
+
+}
+
+.fleche1{
+  margin-top: 450px;
+  margin-left: 200px;
+
+  width: auto;
+  height: auto;
+  z-index: 1;
+  position: absolute;
+  -webkit-animation: flecheOne 1s linear infinite;
+  animation: flecheOne 1s linear infinite;
+  -o-animation: flecheOne 1s linear infinite;
+  -ms-animation: flecheOne 1s linear infinite;
+  -moz-animation: flecheOne 1s linear infinite;
+}
+
+
+/*
+#iphonenote{
+  width: 300px;
+  height: 70%;
+  margin-left: 30%;
+  }*/
+
+  .headerond{
+    margin-top: 3%;
+    margin-right: 20%;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    z-index: 2;
+    left: 6%;
+  }
+
+  #note{
+    width: 54%;
+    height: auto;
+  }
+
+  #subtitle{
+    font-size: 0.5em;
+    text-align:center;
+    margin-top: 1%;
+  }
+
+ .subtitle {
+  font-size: 1.5em;
+  font-weight: bold;
+ }
+  .image_png{
+    width: 90%;
+    height: 900px;
+    left: -30%;
+    margin-top: 42%;
+  }
+
+
+  .page-games-around-you{
+    height: 800px;
+    position:relative;
+
+  }
+
+
+  .page-socialize{
+    height: 700px;
+
+  }
+
+  .page-organize {
+    height: 850px;
+  }
+
+  .page.page-every-game-count{
+    height: 650px;
+
+  }
+
+  #iphonenote{
+    left: 20%;
+  }
+
+  #textenote{
+    padding-top: 100px;
+  }
+
+  .organiser{
+    padding-top: 100px;
+  }
+
+  #parties{
+    margin-top: 100px;
+    width: 220px;
+    height: auto;
+    z-index: 1;
+  }
+
+  .page-footer{
+    height: auto;
+  }
+
+
+  .submit{
+    margin-top: 20px;
+  }
+
+  .rep{
+    padding-top: 5px;
+  }
+
+  .btn{
+    display: inline-block;
+    padding: 4px;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+  }
+
+  @media screen and (max-width :760px){
+
+
+    #game_count {
+    height: 700px;
+    }
+
+    #socialize {
+      height: 850px;
+    }
+
+    #organize {
+      height: 490px;
+    }
+    .image_png{
+      width: 220px;
+      height: 350px;
+      margin-left: 10%;
+      margin-top: 50px;
+    }
+    .page-games-around-you{
+      height: 630px;
+      position:relative;
+
+    }
+
+    .tagline strong{
+      font-size:30px;
+    }
+    .tagline{
+        line-height: 35px;
+        z-index:1000;
+
+    }
+
+    .organiser{
+      padding-top: 0px;
+    }
+    .page-socialize{
+      height: 770px;
+    }
+
+    .page-games-around-you .phone{
+      width: 180px;
+      height: auto;
+      z-index: 2;
+      position: relative;
+      right: 0;
+      bottom: -120px;
+    }
+
+    #parties{
+      width: 180px;
+      height: auto;
+      margin-left: 20%;
+      margin-top: 20px;
+    }
+
+    h2{
+      padding-bottom: 5px;
+      padding-top: 5px;
+    }
+
+    .page-header .logo{
+      -webkit-background-size: 210px;
+      -moz-background-size: 210px;
+      background-size: 210px;
+      left: 30px;
+
+    }
+
+    .headerond{
+      width: 60px;
+      height: 60px;
+      margin-top: 11.5%;
+      margin-left: 5%;
+      left: 0;
+
+    }
+
+    #subtitle{
+      text-align:center;
+
+    }
+
+
+    .play.blue{
+      margin-right: 20%;
+
+    }
+
+    .page-socialize .timeline{
+      visibility: hidden;
+    }
+
+    .iphone-container{
+      display: none;
+    }
+
+
+
+    .sms h3 .subtagline {
+      font-size: 25px;
+      display: inline-flex;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    .sms h3 .apple-img {
+      width:140px;
+      height:49px;
+      margin: auto;
+    }
+    .sms h3 .google-img {
+      width:140px;
+      height:49px;
+      margin: auto;
+    }
+
+
+    #textenote{
+      padding-top: 15px;
+
+    }
+    .page-organize{
+      height: 360px;
+    }
+    .page-header {
+      background-image: url("../image_site/background1.jpg");
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      -webkit-background-size: length;
+      -moz-background-size: length;
+      background-size: length ;
+      color: #fff;
+      height: 100%;
+      margin: 0;
+    }
+
+
+  }
+
+
+
+
+
