@@ -40,7 +40,7 @@ $(document).ready(function() {
                 success: function(data, textStatus, xhr) {
                     if(xhr.status==200)
                         alert('Nous vous tiendrons au courant de nos dernières actu ! \n Wefoot');
-                    $('input').val('');
+                    $('.getinfo').val('');
                 }
             });
         }
@@ -83,7 +83,7 @@ $(document).ready(function() {
                 success: function(data, textStatus, xhr) {
                     if(xhr.status==200)
                         alert('Nous vous tiendrons au courant de nos dernières actu ! \n Wefoot');
-                    $('input').val('');
+                    $('.getinfo').val('');
 
                 }
             });
@@ -126,10 +126,8 @@ $(document).ready(function() {
                 data: {message: mailContent}, // Je sérialise les données (j'envoie toutes les valeurs présentes dans le formulaire)
                 success: function(data, textStatus, xhr) {
                     if(xhr.status==200)
-                        alert('Nous vous tiendrons au courant de nos dernières actu ! \n Wefoot');
-                    $('#name').val('');
-                    $('#email').val('');
-                    $('#message').val('');
+                      alert('Nous vous tiendrons au courant de nos dernières actu ! \n Wefoot');
+                      $('.getinfo').val('');
                 }
             });
         }
